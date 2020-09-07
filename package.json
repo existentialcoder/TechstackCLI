@@ -1,19 +1,29 @@
 {
   "name": "techstack-cli",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "CLI app for detecting technologies behind a company",
   "main": "src/index.js",
   "repository": "git@github.com:existentialcoder/TechstackCLI.git",
   "author": "existentialcoder <shravanayyappa@gmail.com>",
   "license": "MIT",
   "private": false,
-  "keywords": ["techstack", "technologies stack", "Technologies Stack", "Companies Tehnologies", "Wappalyzer", "wappalyzer-cli", "Wappalyzer Command Line", "wappalyzer cli"], 
+  "keywords": [
+    "techstack",
+    "technologies stack",
+    "Technologies Stack",
+    "Companies Tehnologies",
+    "Wappalyzer",
+    "wappalyzer-cli",
+    "Wappalyzer Command Line",
+    "wappalyzer cli"
+  ],
   "bin": {
-    "techstack": "./src/"
+    "techstack": "./src/index.js"
   },
   "engine": {
     "node": "10"
   },
+  "preferGlobal": true,
   "scripts": {
     "unit": "nyc jest --detectOpenHandles",
     "test": "yarn unit",
@@ -79,6 +89,7 @@
     "chalk": "^4.1.0",
     "commander": "^6.0.0",
     "console-table-printer": "^2.2.6",
+    "techstack-cli": "^1.0.4",
     "wappalyzer": "^6.2.1"
   },
   "devDependencies": {

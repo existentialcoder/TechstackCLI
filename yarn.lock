@@ -4151,6 +4151,16 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
+techstack-cli@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/techstack-cli/-/techstack-cli-1.0.4.tgz#371812031203a34c58b593bd33cc0d4d14175c89"
+  integrity sha512-xDal9ozsCu6AovTM1bslFpNqlL4MZSgJ45aADVYml7vY+aGIp52Cqp+e5nCCiueZP7KKu8NobkjJ0k0f1rl/lw==
+  dependencies:
+    chalk "^4.1.0"
+    commander "^6.0.0"
+    console-table-printer "^2.2.6"
+    wappalyzer "^6.2.1"
+
 terminal-link@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/terminal-link/-/terminal-link-2.1.1.tgz#14a64a27ab3c0df933ea546fba55f2d078edc994"
